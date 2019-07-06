@@ -1,0 +1,32 @@
+{
+  "name": "kekse",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update": "node ./script/update",
+    "patch": "node ./script/update patch",
+    "minor": "node ./script/update minor",
+    "major": "node ./script/update major"
+  },
+  "dependencies": {
+    "element-ui": "^2.10.1",
+    "lodash.clone": "^4.5.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2"
+  },
+  "author": "wonderful",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.5",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  }
+}
